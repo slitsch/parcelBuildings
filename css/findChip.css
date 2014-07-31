@@ -8,14 +8,14 @@ body {
 
 html {
     height: 85%;
-    width:95%;
+    width:100%;
     margin: 0px;
     padding: 0px;
 }
 header, h1, h4  {
     background: #2A5070;
     color: white;
-    width: 95%;
+    width: 100%;
     padding: 1px;
     /*margin: 10px;*/
     text-align: center;
@@ -28,11 +28,11 @@ h4 {
 /*}*/
 
  #map-canvas {
-    height: 85%;
-    width:95%;
-    margin: 0px;
-    padding: 0px;
-     align-self: center;
+    height: 85%;/*!important;
+    /*width:95%;*/
+    /*margin: 0px;*/
+    /*padding: 0px;*/
+     /*align-self: center;*/
 }
 
  .ui-dialog  {
@@ -51,7 +51,7 @@ footer {
     background: rgba(42, 80, 112, 0.60);
     color: white;
     text-align: left;
-    width:94%;
+    width:100%;
     padding:10px;
     float:left;
 }

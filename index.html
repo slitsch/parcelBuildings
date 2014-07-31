@@ -4,7 +4,11 @@
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
 
+    <link rel="stylesheet" href="css/bootstrap.css">
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+
+    <!--<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.js"></script>-->
     <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
     <!--<script type="text/javascript" src="http://codeorigin.jquery.com/jquery-2.0.3.js"></script>-->
 
@@ -173,8 +177,15 @@
         When a building is found, a blue marker will appear.
         Brown markers indicate that no buildings are present.</h4>
 </header>
-
-<div id="map-canvas"></div>
+<div class="container-fluid">
+    <!--<div class="row">-->
+        <div class="col-sm-6   well" id="map-canvas" style="height : 400px">
+        </div>
+        <div class="col-sm-6  well" id="chipDiv2">
+            <img src="img/sally_sm.jpg" class="img-responsive" alt="Responsive image">
+        </div>
+    </div>
+<!--</div>-->
 
 <footer>
     <div id="leftFoot">
